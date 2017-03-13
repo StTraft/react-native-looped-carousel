@@ -362,9 +362,10 @@ const styles = StyleSheet.create({
   },
   bullets: {
     position: 'absolute',
+    zIndex: 500,
     left: 0,
     right: 0,
-    bottom: 10,
+    bottom: 0,
     height: 30,
     backgroundColor: 'transparent',
     alignItems: 'center',
